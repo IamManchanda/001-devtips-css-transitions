@@ -1,0 +1,19 @@
+/**
+ * Styles
+ */
+
+body {
+  padding: 50px;
+}
+
+.box {
+  display: inline-block;
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  transition: transform 300ms ease-in-out;
+
+  &.is-active {
+    transform: translate(150px, 100px) rotate(20deg);
+  }
+}
